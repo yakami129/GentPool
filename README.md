@@ -27,6 +27,12 @@ echo "OPENAI_API_KEY=<your_openai_api_key>" >> .env
 .. and so on if you plan to use other service keys. 
 
 Now you are all set! Let's create your first Gentopia Agent.
+
+## Set Proxy
+```
+export http_proxy='http://127.0.0.1:7890'
+export https_proxy='http://127.0.0.1:7890'
+```
 ## Quick Start ☘️
 Find a cool name for your agent and create a template.
 ```
